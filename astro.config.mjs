@@ -7,7 +7,7 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   outDir: './docs',
   build: {
-    assetsPrefix: "."
+    assets: "static"
   },
   integrations: [tailwind(), mdx()]
 });
