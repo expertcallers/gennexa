@@ -1,0 +1,21 @@
+{
+  "name": "gennexa",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.0.0",
+    "@astrojs/tailwind": "^5.0.3",
+    "@fontsource/inter": "^5.0.15",
+    "astro": "^4.0.2",
+    "astro-icon": "^0.8.2",
+    "astro-seo": "^0.8.0",
+    "tailwindcss": "^3.3.6"
+  }
+}
